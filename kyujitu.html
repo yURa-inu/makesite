@@ -2,30 +2,55 @@
 <html lang="ja">
   <head>
     <meta charset="utf-8">
-    <meta rel="stylesheet" href="kyujitu.css">
+    <link rel="stylesheet" href="kyujitu.css">
     <title>休みの日</title>
   </head>
   <body>
     <header>
-      <div class="title">休みの日</div>
-      <div class="nav"></div>
+      <div class="title">
+        <h1>休みの日</h1>
+      </div>
+      <div class="nav">
+        <nav>
+          <ul class="nav-list">
+            <li class="nav-list-item"><a href="#book">Book</a></li>
+            <li class="nav-list-item"><a href="#author">Author</a></li>
+            <li class="nav-list-item"><a href="#link">Link</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
     <main>
-      <div class="main-visual"></div>
+      <div class="main-visual">
+        <img id="main-visual" src="img/main-visual.png" alt="main-visual" >
+      </div>
 
       <!-- 本の紹介 -->
-      <section class="book"></section>
+      <section class="book" id="book">
+        <img  id="book-pic" src="img/book.jpg" alt=" " height="500px" width="400px">
+        <p class="book-text"><br>大学生の滝本悠は、高校時代の後輩・水無月奏との失恋を引きずっていた。<br>ある日、美大生の多岐川梓と知り合い、彼女を通じて偶然奏と再会する。<br>再び奏に告白をするが想いは届かず、悠は二度目の失恋に打ちひしがれる。梓の励ましによって悠は次第に立ち直っていくが、やがて切ない結末が訪れて…。<br>諦めてしまった夢、将来への不安。そして、届かなかった恋。それはありふれた悩みを持つ三人が、一歩前に進むまでの物語。<br>ページをめくるたびに心波立ち、涙あふれる。</p>
+      </section>
 
       <!-- 作者紹介 -->
-      <section class="author"></section>
+      <section class="author" id="author">
+        <img id="author-pic" src="img/author.jpg" alt=" " height="500px" width="400px">
+        <div class="author-text">
+          <h2><br>小鳥居ほたる</h2>
+          <p class="author-text-contents">石川県在住。2018年、作家デビューを飾った作品、『記憶喪失の君と、君だけを忘れてしまった僕。』は続刊含め、現在12万部突破の大ヒットに。 その後も、『休みの日～その夢と、さよならの向こう側には～』『あの日に誓った約束だけは忘れなかった。』『こんなにも美しい世界で、また君に出会えたということ』(以上、スターツ出版刊)など文庫化。独特の切なくも優しい泣けるラブストーリーに定評あり。そして、ファンタジックな仕掛けと物語最後の「ハッとする展開」に熱狂的ファン多数。 </p>
+        </div>
+      </section>
 
       <!-- アマゾン・楽天のurl -->
-      <div class="link"></div>
+      <div class="link" id="link">
+        <a href="https://www.amazon.co.jp/%E4%BC%91%E3%81%BF%E3%81%AE%E6%97%A5%E3%80%9C%E3%81%9D%E3%81%AE%E5%A4%A2%E3%81%A8%E3%80%81%E3%81%95%E3%82%88%E3%81%AA%E3%82%89%E3%81%AE%E5%90%91%E3%81%93%E3%81%86%E5%81%B4%E3%81%AB%E3%81%AF%E3%80%9C-%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%84%E5%87%BA%E7%89%88%E6%96%87%E5%BA%AB-%E5%B0%8F%E9%B3%A5%E5%B1%85%E3%81%BB%E3%81%9F%E3%82%8B/dp/4813705790">amazonから購入</a>
+        <a href="https://books.rakuten.co.jp/rb/15666145/">楽天市場から購入</a>
+
+      </div>
     </main>
 
     <footer>
-      <p>text</p>
+      <p class="footer">yuyuyu © ホームページ制作. rarara.</p>
     </footer>
   </body>
 </html>
